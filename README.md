@@ -56,4 +56,4 @@
 - 
 ```
 
-## Make a Try
+## [Make a Try](https://github.com/ChaoLiou/DBDocTemplateGenerator/releases)
