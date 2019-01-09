@@ -2,7 +2,7 @@
 ## Brief Intro
 - It generates a document templates about your database structure(table, stored procedures and function) for you, including folder structure, *.md and *.sql.
 
-## Details Intro
+## Scenario
 - Assume you have a Database call `MyDB`, and there are some tables, stored procedures and functions inside. maybe like:
     - tables: `Table`, `Tbble`
     - stored procedures: `SPA`, `SPB`
@@ -31,10 +31,11 @@
            \Tcble.md
 ```
 
-- the content of template (.md) will generate for you, example:
+- the content of template (`.md`) will be generated for you:
 ```
 # [SPA](a link to the SPA.sql)
 ## Parameters
+
 |Name|Type (Size, Precision, Scale)|Notes|
 |:---|:---|:---|
 |@Param1|uniqueidentifier (16, 0, 0)||
